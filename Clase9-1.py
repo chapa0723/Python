@@ -2,7 +2,7 @@
 
 listado = str(input("Introduce una lista de países: "))
 listado = listado.split()
-listado.sort()
+liastado = listado.sort()
 print (listado)
 listado = set(listado)
 print(", ".join(listado))
